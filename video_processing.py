@@ -46,7 +46,6 @@ shoulder_press_counter = ExerciseCounter("Shoulder Press", up_threshold=160, dow
 
 #     cap.release()
 #     cv2.destroyAllWindows()
-import streamlit as st
 
 def process_video(file_path, counter, relevant_landmarks):
     cap = cv2.VideoCapture(file_path)

@@ -1,5 +1,5 @@
 import streamlit as st
-import "https://github.com/imabhnv/AI-Fitness-Trainer/blob/main/video_processing" as vp
+import video_processing as vp
 
 # Streamlit UI
 st.title("AI Fitness Trainer")

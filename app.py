@@ -1,5 +1,5 @@
 import streamlit as st
-import video_processing as vp
+from . import video_processing as vp
 
 # Streamlit UI
 st.title("AI Fitness Trainer")

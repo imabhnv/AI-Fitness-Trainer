@@ -1,7 +1,6 @@
 import cv2
 import pose_detection as pd
 from exercise_counter import ExerciseCounter
-import tempfile
 # Initialize counters
 pushup_counter = ExerciseCounter("Pushup", up_threshold=160, down_threshold=90)
 pullup_counter = ExerciseCounter("Pullup", up_threshold=160, down_threshold=90)

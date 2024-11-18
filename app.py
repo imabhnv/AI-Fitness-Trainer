@@ -1,5 +1,10 @@
 import streamlit as st
 import video_processing as vp
+import sys
+import os
+
+# Add the current working directory to the system path
+sys.path.append(os.path.dirname(os.path.abspath(_file_)))
 
 # Streamlit UI
 st.title("AI Fitness Trainer")
